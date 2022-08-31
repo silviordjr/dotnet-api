@@ -1,0 +1,8 @@
+1- dotnet tool install --global dotnet-ef;
+2- dotnet new webapi (para rodar dotnet run);
+3- extensão vscode: C# (microsoft), C# extensions (JosKreativ), NuGet Gallery (pcislo) (ctrl shift p para abrir);
+4- instalações (NuGet Gallery):
+    1 - Microsoft.EntityFrameWorkCore,
+    2 - Microsoft.EntityFrameWorkCore.Design,
+    3 - Microsoft.EntityFrameWorkCore.Tools,
+    4 - Npgsql.EntityFrameWorkCore

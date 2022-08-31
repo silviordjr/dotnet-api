@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Felipe Cavalcanti\\Desktop\\teste_silvio\\dev\\dotnet-api\\dotnet-api.csproj": {}
+    "c:\\Users\\Felipe Cavalcanti\\Desktop\\teste_silvio\\dev\\dotnet-api\\dotnet-api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Felipe Cavalcanti\\Desktop\\teste_silvio\\dev\\dotnet-api\\dotnet-api.csproj": {
+    "c:\\Users\\Felipe Cavalcanti\\Desktop\\teste_silvio\\dev\\dotnet-api\\dotnet-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Felipe Cavalcanti\\Desktop\\teste_silvio\\dev\\dotnet-api\\dotnet-api.csproj",
+        "projectUniqueName": "c:\\Users\\Felipe Cavalcanti\\Desktop\\teste_silvio\\dev\\dotnet-api\\dotnet-api.csproj",
         "projectName": "dotnet-api",
-        "projectPath": "C:\\Users\\Felipe Cavalcanti\\Desktop\\teste_silvio\\dev\\dotnet-api\\dotnet-api.csproj",
+        "projectPath": "c:\\Users\\Felipe Cavalcanti\\Desktop\\teste_silvio\\dev\\dotnet-api\\dotnet-api.csproj",
         "packagesPath": "C:\\Users\\Felipe Cavalcanti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Felipe Cavalcanti\\Desktop\\teste_silvio\\dev\\dotnet-api\\obj\\",
+        "outputPath": "c:\\Users\\Felipe Cavalcanti\\Desktop\\teste_silvio\\dev\\dotnet-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Felipe Cavalcanti\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -19,6 +19,9 @@
         "originalTargetFrameworks": [
           "net6.0"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
@@ -35,6 +38,26 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
