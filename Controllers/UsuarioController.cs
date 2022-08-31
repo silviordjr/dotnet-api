@@ -20,5 +20,14 @@ namespace usuario.Controllers
         {
             return Ok(Usuarios());
         }
+
+        [HttpPost]
+        public IActionResult Post(Usuario usuario)
+        {
+            var usuarios = Usuarios();
+            usuarios.Add(usuario);
+
+            return Ok(usuarios);
+        }
     }
 }
