@@ -1,8 +1,4 @@
-1- dotnet tool install --global dotnet-ef;
-2- dotnet new webapi (para rodar dotnet run);
-3- extensão vscode: C# (microsoft), C# extensions (JosKreativ), NuGet Gallery (pcislo) (ctrl shift p para abrir);
-4- instalações (NuGet Gallery):
-    1 - Microsoft.EntityFrameWorkCore,
-    2 - Microsoft.EntityFrameWorkCore.Design,
-    3 - Microsoft.EntityFrameWorkCore.Tools,
-    4 - Npgsql.EntityFrameWorkCore
+1. dotnet new webapi => cria template para webapi;
+2. dotnet add package MySqlConnector --version 0.43.0 => possibilita conexão com banco de dados;
+3. dotnet add package Swashbuckle.AspNetCore --version 3.0.0 => documentação da api;
+4. dotnet add package Dapper --version 1.50.5 => mapeamento do resultado da consulta do banco;
